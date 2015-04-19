@@ -18,7 +18,7 @@ rules["email"] = "required|email"
 r.ParseForm()
 
 // call the validator
-success, messages := validator.Valdiate(r.Form, rules)
+success, messages := validator.Validate(r.Form, rules)
 ```
 
 ### Available Rules
